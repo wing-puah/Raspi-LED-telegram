@@ -24,12 +24,17 @@ Telegram bots are fun! Check out the [Telegram API document](https://core.telegr
 
 ### Breadboard setup
 __3 LEDs: 1 blue, 1 green, 1 red__
+
 220 Ohm Resistor: Connects to negative of LED and negative rail of breadboard
+
 M/F jumper wire: Connects to positive of LED and GPIO pins on Raspi
 
 __1 passive buzzer__
+
 M/F jumper wire: Connects to positive of buzzer and GPIO pin of Raspi
+
 M/M jumper wire: Connects to negative of buzzer and negative rail of breadboard
 
 __1 ground wire__
+
 Connects to negative rail of breadboard and Ground pin of Raspi 
