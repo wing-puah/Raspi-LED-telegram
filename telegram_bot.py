@@ -1,6 +1,5 @@
 #! /usr/bin/python3.5
 import json
-import os
 import requests
 import sys
 import time
@@ -8,6 +7,7 @@ import telepot
 import RPi.GPIO as GPIO
 import LED_vars
 import tele_commands
+import buzz_func
 from api import telegram_api
 from tele_map import command_map
 

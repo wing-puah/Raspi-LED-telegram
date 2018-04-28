@@ -1,4 +1,5 @@
 from tele_commands import blue, green, red, off, fizzbuzz, all, exit
+from buzz_func import beep, mariosong
 
 command_map = {
     'blue': blue,
@@ -8,4 +9,6 @@ command_map = {
     'fizzbuzz': fizzbuzz,
     'all': all,
     'exit': exit,
+    'beep': beep,
+    'mario': mariosong
 }
